@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        internal css
+    </title>
+    <style>
+    body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 213, 244);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login{
+ width: 382px;
+ overflow: hidden;
+ margin: auto;
+ margin:20 0 0 450px;
+ padding: 80px;
+ background: rgb(119, 65, 155);
+ border-radius: 15px;
+}
+h2{
+    text-align: center;
+    color:#eef5f7;
+    padding: 20px;
+}
+label{
+ color:#1b0540;
+ font-size: 17px;
+}
+#Unamepass{
+    width: 300px;
+    height: 30px;
+    border:none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+span{
+    color: rgb(254, 254, 254);
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color: rgb(254, 250, 250);
+}
+    </style>
+</head>
+<body>
+               <div class="login">
+                <form id="login" method="get">
+                    <h2>User Login</h2>
+                    <label>
+                        <b>User Name </b>
+                    </label>
+                    <input type="text" name="Uname" id="Unamepass" placeholder="Username">
+                    <br><br>
+                    <label>
+                        <b>Password</b>
+                    </label>
+                    <input type="password" name="Pass" id="Unamepass" placeholder="Password">
+                    <br><br>
+                    <input type="checkbox" id="check">
+                    <span>Remember me</span>
+                    <br><br>
+                    Forgot <a href="#">Password</a>
+                </form>
+            </div>
+</body>
+</html>

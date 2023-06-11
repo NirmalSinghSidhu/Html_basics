@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>Admission form</head>
+    <body>
+        <form style="background-color: cornflowerblue; display:block;">    
+        <table>
+            <tr>
+                <td>Fullname:</td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td>Father's name:</td>
+                <td><input type="text" size="30"></td>
+            </tr><tr>
+                <td>Mother's name:</td>
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td><select max="2">
+                    <option>Select Course</option>
+                    <option>BCA</option>
+                    <option>B.Tech</option>
+                    <option>M.tech</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+               <td> Gender: </td> 
+               <td><input type="radio" name="gender" value="Male">Male  <input type="radio" name="gender" value="female">Female </td>></tr>
+            <tr><td align="left">Address:</td> 
+                <td><textarea rows="5" cols="100">Enter your address here</textarea><br>
+                </td>
+            </tr>
+               <tr>
+                   <td>Phone:</td>
+                   <td><input type="text" size="30" maxlength="10"></td>
+               </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" size="30"></td>
+                </tr>
+                <tr>
+                    <td><h3>Educational Qualification</h3></td>
+                </tr>
+            <tr>
+                <td colspan="2">
+                <table border="2" cellspacing="5" cellpading="5" color="White">
+                  <tr>
+                      <th>SrNo.</th>
+                      <th>Class</th>
+                      <th>Marks Obtained</th>
+                      <th>Total Marks</th>
+                      <th>Percentage</th>
+                  </tr> 
+                  <tr>
+                      <td>1</td>
+                      <td>12th</td>
+                      <td><input type="text" maxlength="3"></td>
+                      <td><input type="text" maxlength="3"></td>
+                      <td><input type="text" maxlength="5"></td>
+                  </tr> 
+                  <tr>
+                    <td>2</td>
+                    <td>10th</td>
+                    <td><input type="text" maxlength="3"></td>
+                    <td><input type="text" maxlength="3"></td>
+                    <td><input type="text" maxlength="5"></td>
+                </tr> 
+                </table>
+                </td>
+            </tr><br> 
+            <tr>
+                <td>
+                    Want to apply for Hostel:
+                </td>
+                <td>
+                    <input type="radio" name="hostel" value="yes">Yes  <input type="radio" name="hostel" value="No">No  
+                </td>
+            </tr>
+            <tr>
+                <td>Attatch your Documents:</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul style="list-style: none;">
+                
+                        <li><input type="checkbox" value="Blind disability">Blindness or other disability</li>
+                        <li></li><input type="checkbox" value="Border Area">Border Area</li>
+                        <li></li><input type="checkbox" value="Belongs to Sc/st">Belongs to SC/ST Category </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit">Apply and proceed</button></td>
+                <td><button type="reset">Clear data</button></td>
+            </tr>  
+        </table><br><br>
+    
+        </form>
+    </body>
+</html>

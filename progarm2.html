@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>
+            Different tables
+        </title>
+    </head>
+    <body>
+        <h2 align="center">HTML TABLES</h2>
+        <table border="2"  cellpadding="5"  align="center">
+            <caption><strong>Colspan table</strong></caption>
+            <tr>
+                <th>Items</th>
+                <th>Quantity</th>
+                <th>@</th>
+                <th>Price</th>
+            </tr>
+             <tr>
+                    <td>Paperclips</td>
+                    <td>100</td>
+                    <td>1.15</td>
+                    <td>115</td>
+            </tr>
+            <tr>
+                    <td>Paper</td>
+                    <td>10</td>
+                    <td>45.15</td>
+                    <td>450</td>
+            </tr>
+            <tr>
+                    <td>Baskets</td>
+                    <td>2</td>
+                    <td>17.99</td>
+                    <td>35.98</td>
+            </tr>
+            <tr>
+                    <th colspan="3">Subtotal</th>
+                    <td>610</td>                     </tr>
+            <tr>
+                    <th colspan="2" align="center">Tax</th>
+                    <td>7</td>
+                    <td>42.77</td>
+           </tr>
+        </table>
+        <br>
+        <table  border="2"  cellpadding="5"  align="center">
+            <caption> <strong>Rowspane Table</strong></caption>
+            <tr>
+              <th>Roll Number</th>
+              <th>Name</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+                <td>1046</td>
+                <td>Prateek Singh</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>1046</td>
+                <td>Pardeep Singh</td>
+                <td rowspan="2">21</td>
+            </tr>
+            <tr>
+                <td>1048</td>
+                <td>Preet Singh</td>
+            </tr>
+        </table>
+        <br><br>
+        <table  border="2"  cellpadding="5"  align="center">
+            <caption><strong>Nested table</strong></caption>
+            <tr>
+                <th rowspan="2" colspan="2">CI</th>
+                <th rowspan="2">All Genders</th>
+                <th>By Gender</th>
+            </tr>
+            <tr>
+                <td>
+                    <table  border="2"  cellpadding="5"  align="center">
+                        <tr>
+                            <th>Males</th>
+                            <th>Females</th>
+                        </tr>
+                        <tr>
+                            <td>9215604</td>
+                            <td>4512358</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th>Rural</th>
+                <td>651458</td>
+                <td>4215389</td>
+                <td>4152348</td>
+            </tr>
+        </table>
+    </body>
+</html>
